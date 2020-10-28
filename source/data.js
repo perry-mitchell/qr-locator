@@ -1,3 +1,5 @@
+// Inspriation: https://stackoverflow.com/questions/10754661/javascript-getting-imagedata-without-canvas
+
 export function imgCanvas(imageElement) {
     return new Promise(resolve => {
         const canvas = document.createElement("canvas");
