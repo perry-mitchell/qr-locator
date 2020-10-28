@@ -1,0 +1,30 @@
+{
+  "name": "qr-locator",
+  "version": "0.0.0",
+  "description": "QR code scanner and locator for the web",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/perry-mitchell/qr-locator.git"
+  },
+  "keywords": [
+    "qr",
+    "code",
+    "locate",
+    "qr",
+    "code",
+    "scanner"
+  ],
+  "author": "Perry Mitchell <perry@perrymitchell.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/perry-mitchell/qr-locator/issues"
+  },
+  "homepage": "https://github.com/perry-mitchell/qr-locator#readme",
+  "devDependencies": {
+    "jsqr": "^1.3.1"
+  }
+}
