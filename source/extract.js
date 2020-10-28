@@ -1,8 +1,8 @@
 import jsQR from "jsqr";
 
-export function extractQRData(imageData, width, height) {
+export function extractQRData(imageData) {
     return new Promise(resolve => {
-        const code = jsQR(imageData, width, height);
+        const code = jsQR(imageData.data, imageData.width, imageData.height);
         resolve(code ? code.data : null);
     });
 }

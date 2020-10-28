@@ -11,7 +11,7 @@ export function scan(target = document.body, query = queryImages, convert = imgC
             }))
         )))
         .then(targets => Promise.all(targets.map(target =>
-            extract(target.data, target.width, target.height).then(result => ({
+            extract(target.data).then(result => ({
                 element: target.element,
                 data: result
             }))
